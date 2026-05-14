@@ -12,11 +12,6 @@ const Instagram = ({ className }: { className?: string }) => (
   </svg>
 );
 
-export const metadata = {
-  title: "Contact | Purrfolio Designs",
-  description: "Let's build something worth bookmarking. Get in touch with Purrfolio Designs.",
-};
-
 export default function Contact() {
   const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
 
